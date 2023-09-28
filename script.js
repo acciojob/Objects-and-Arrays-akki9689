@@ -8,8 +8,13 @@ let team=[];
  players.forEach(function (item) {
         team.push(item);
     });
-let team1=players;
-let cap1=person;
+const team = players;
+
+// Create a copy of the 'players' array using the spread operator
+const team1 = [...players];
+
+// Create a copy of the 'person' object using the spread operator
+const cap1 = { ...person };
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
